@@ -1,0 +1,12 @@
+div#carrusel {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+div#carrusel div {
+    display:flex;
+    gap: 20px;
+}

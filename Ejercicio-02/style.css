@@ -1,0 +1,27 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+img#imagen1 {
+    overflow: hidden;
+    opacity:0.3;
+}
+
+
+img#imagen1.cambio {
+    display:none;
+}
+
+img#imagen2 {
+    transition: 1s;
+    display:none;
+    overflow: hidden;
+}
+
+img#imagen2.cambio {
+    height:300px;
+    display:flex
+}

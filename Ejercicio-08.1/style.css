@@ -1,0 +1,27 @@
+div#galeria {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+img {
+    cursor: pointer;
+}
+
+div#imagenPrincipal img {
+    width: 250px;
+    height:250px;
+}
+
+
+div#miniaturas {
+    display: flex;
+    gap:15px;
+}
+
+div#miniaturas img.borde {
+    border: solid 5px;
+    border-color: yellow;
+}

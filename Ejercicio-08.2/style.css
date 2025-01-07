@@ -1,0 +1,21 @@
+div#galeria {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+div#imagenPrincipal img {
+    width:400px;
+    height: 400px;
+}
+
+div#galeria img {
+    cursor:pointer;
+}
+
+div#galeria img.borde {
+    border: solid 7px;
+    border-color: red ;
+}

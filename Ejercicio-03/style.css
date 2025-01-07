@@ -1,0 +1,8 @@
+#ocultar {
+    font-size: 20px;;
+    font-weight: bold;
+}
+
+#ocultar.oculto {
+    display: none;
+}

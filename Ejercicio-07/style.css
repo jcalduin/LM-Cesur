@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: orangered;
+}
+
+body.color {
+    background-color: yellowgreen;
+}
+
+div {
+    display: flex ;
+    width:200px;
+    height:200px;
+    border:solid;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color:aliceblue
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
